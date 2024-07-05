@@ -1,0 +1,78 @@
+﻿﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 20px;
+    left: 240px;
+}
+
+.NavList {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+    .NavList li {
+        letter-spacing: 3px;
+        margin-left: 32px;
+        float: left;
+    }
+
+    .NavList ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    .NavList a {
+        text-decoration: none;
+        color: white;
+    }
+.BackgroundIMG {
+    background-image: url("coffebackground.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.Coffe {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    font-weight: bolder;
+}
+
+.Frase{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-weight: bolder;
+}
+
+.Buy {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    border: none;
+    height: 50px;
+    width: 130px;
+    font-weight: bold;
+    
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #240900;
+}
+    .Buy:hover {
+        background-color: #501401;
+    }

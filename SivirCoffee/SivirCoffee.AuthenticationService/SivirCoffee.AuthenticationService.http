@@ -1,0 +1,6 @@
+@SivirCoffee.AuthenticationService_HostAddress = http://localhost:5049
+
+GET {{SivirCoffee.AuthenticationService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

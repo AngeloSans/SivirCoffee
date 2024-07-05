@@ -1,0 +1,6 @@
+@SivirCoffee.PaymentService_HostAddress = http://localhost:5083
+
+GET {{SivirCoffee.PaymentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
