@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\SivirCoffee",
-    "\\SivirCoffee\\SivirCoffee"
+    "\\SivirCoffee\\SivirCoffee",
+    "\\SivirCoffee\\SivirCoffee.AuthenticationService",
+    "\\SivirCoffee\\SivirCoffee\\Controllers"
   ],
   "SelectedNode": "\\SivirCoffee\\SivirCoffee\\appsettings.json",
   "PreviewInSolutionExplorer": false
