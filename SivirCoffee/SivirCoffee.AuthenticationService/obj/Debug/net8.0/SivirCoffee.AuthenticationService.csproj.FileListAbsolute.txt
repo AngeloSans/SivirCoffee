@@ -1,0 +1,8 @@
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\obj\Debug\net8.0\SivirCoffee.AuthenticationService.sourcelink.json

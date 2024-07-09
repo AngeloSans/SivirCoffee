@@ -1,0 +1,8 @@
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.sourcelink.json

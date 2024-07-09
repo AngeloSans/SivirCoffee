@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee", "SivirCoffee\SivirCoffee.csproj", "{55CABBF7-A8A2-4F4D-B59A-8603F3702119}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.AuthenticationService", "SivirCoffee.AuthenticationService\SivirCoffee.AuthenticationService.csproj", "{4F504043-CC6C-4202-A068-DF0DE27671B3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.ProductService", "SivirCoffee.ProductService\SivirCoffee.ProductService.csproj", "{D200B826-AA40-40A2-A8DC-4B7DECC1F63D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.PaymentService", "SivirCoffee.PaymentService\SivirCoffee.PaymentService.csproj", "{F617316B-9961-43A8-A574-EA2748B16A7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SivirCoffee.OrderService", "SivirCoffee.OrderService\SivirCoffee.OrderService.csproj", "{B94B8102-7B26-418A-8C80-AD1DC2BD4F0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.OrderService", "SivirCoffee.OrderService\SivirCoffee.OrderService.csproj", "{B94B8102-7B26-418A-8C80-AD1DC2BD4F0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55CABBF7-A8A2-4F4D-B59A-8603F3702119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55CABBF7-A8A2-4F4D-B59A-8603F3702119}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55CABBF7-A8A2-4F4D-B59A-8603F3702119}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55CABBF7-A8A2-4F4D-B59A-8603F3702119}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F504043-CC6C-4202-A068-DF0DE27671B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F504043-CC6C-4202-A068-DF0DE27671B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F504043-CC6C-4202-A068-DF0DE27671B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
