@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SivirCoffee",
+    "\\SivirCoffee\\SivirCoffee",
+    "\\SivirCoffee\\SivirCoffee.AuthenticationService",
+    "\\SivirCoffee\\SivirCoffee.AuthenticationService\\Entities",
+    "\\SivirCoffee\\SivirCoffee\\Controllers"
   ],
-  "SelectedNode": "\\SivirCoffee.sln",
+  "SelectedNode": "\\SivirCoffee\\SivirCoffee.AuthenticationService\\Entities\\User.cs",
   "PreviewInSolutionExplorer": false
 }
