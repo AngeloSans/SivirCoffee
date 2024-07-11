@@ -5,13 +5,16 @@ namespace SivirCoffee.AuthenticationService.Entities
     public class User
     {
         [Key]
-        private Guid id {  get; set; }
+        public Guid Id {  get; set; }
 
         [Required]
-        private string name { get; set; }
+        [MaxLength(100)]
+        public string Name { get; set; }
 
         [Required]
-        private string password { get; set; }
+        public string Password { get; set; }
+        
+        public virtual ICollection<UserRole> Roles { get; set; }
 
 
     }
