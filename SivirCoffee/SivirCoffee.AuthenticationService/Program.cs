@@ -1,8 +1,15 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using SivirCoffee.AuthenticationService.Infraestructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AuthenticationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 
 // Add services to the container.
 builder.Services.AddControllers();
