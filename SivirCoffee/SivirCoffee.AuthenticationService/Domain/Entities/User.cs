@@ -14,7 +14,7 @@ namespace SivirCoffee.AuthenticationService.Entities
         [Required]
         public string Password { get; set; }
         
-        public virtual ICollection<UserRole> Roles { get; set; }
+        public virtual ICollection<UserRole> UserRoles { get; set; }
 
 
     }

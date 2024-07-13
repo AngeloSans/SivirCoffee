@@ -1,14 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SivirCoffee.AuthenticationService.Entities;
-using SivirCoffee.AuthenticationService.Infraestructure.Repository;
+using SivirCoffee.AuthenticationService.Infrastructure.Repository;
 
 namespace SivirCoffee.AuthenticationService.Infrastructure.Repository;
 
 public class UserRepository : IUserRepository
 {
-    private readonly AuthenticationDbContext _authenticationDbContext;
+    private readonly AuthenticationDBContext _authenticationDbContext;
 
-    public UserRepository(AuthenticationDbContext context)
+    public UserRepository(AuthenticationDBContext context)
     {
         _authenticationDbContext = context;
     }
@@ -26,7 +26,8 @@ public class UserRepository : IUserRepository
 
     public async Task<User> GetByUserNameAsync(string name)
     {
-        return await _authenticationDbContext.Users.FindAsync(name);
+        return await _authenticationDbContext.Users
+            .FirstOrDefaultAsync(u => u.Name == name);
     }
 
     public async Task<User> AddAsync(User user)
