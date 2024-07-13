@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.AuthenticationService", "SivirCoffee.AuthenticationService\SivirCoffee.AuthenticationService.csproj", "{4F504043-CC6C-4202-A068-DF0DE27671B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.ProductService", "SivirCoffee.ProductService\SivirCoffee.ProductService.csproj", "{D200B826-AA40-40A2-A8DC-4B7DECC1F63D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.MenuService", "SivirCoffee.MenuService\SivirCoffee.MenuService.csproj", "{D200B826-AA40-40A2-A8DC-4B7DECC1F63D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SivirCoffee.PaymentService", "SivirCoffee.PaymentService\SivirCoffee.PaymentService.csproj", "{F617316B-9961-43A8-A574-EA2748B16A7E}"
 EndProject

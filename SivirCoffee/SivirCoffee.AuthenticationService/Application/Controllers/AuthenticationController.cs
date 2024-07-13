@@ -5,7 +5,7 @@ using SivirCoffee.AuthenticationService.Infrastructure.Repository;
 using SivirCoffee.AuthenticationService.Service;
 
 namespace SivirCoffee.AuthenticationService.Application.Controllers;
-[Route("Authentication/[controller]")]
+[Route("/[controller]")]
 [ApiController]
 public class AuthenticationController : Controller
 {
@@ -24,10 +24,16 @@ public class AuthenticationController : Controller
     public async Task<IActionResult> GetAllUser()
     {
         var user = await _userRepository.GetAllUserAsync();
+        if (user == null)
+        {
+            return BadRequest("Users not exist please registre");
+        }
         return Ok (user);
     }
 
-    [HttpPost("Create")]
+    [HttpPost("CreateUser", Name = "CreateUser")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> SignUp([FromBody] User user)
     {
         if (user == null)
