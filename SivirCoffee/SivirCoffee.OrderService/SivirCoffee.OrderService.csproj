@@ -20,13 +20,16 @@
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="7.0.0-rc.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Controllers\" />
     <Folder Include="Domain\" />
-    <Folder Include="Infraestructure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SivirCoffee.MenuService\SivirCoffee.MenuService.csproj" />
   </ItemGroup>
 
 </Project>

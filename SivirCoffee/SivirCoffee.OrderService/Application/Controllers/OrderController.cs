@@ -1,12 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SivirCoffee.ProductService.Infrastructure;
+using SivirCoffee.ProductService.Repository;
 
 namespace SivirCoffee.OrderService.Application.Controllers;
 
+[Route("/Order")]
+[ApiController]
 public class OrderController : Controller
 {
-    // GET
-    public IActionResult Index()
-    {
-        return View();
-    }
+    private readonly IMenuRepository menuRepository;
+    [HttpGet]
+    
 }

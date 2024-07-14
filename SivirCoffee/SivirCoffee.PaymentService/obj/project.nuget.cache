@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2CAgY+11XCm9HtR/HB0N5HXmTHyQjmZHlF2Th/Pk8TidPmuB0ghzaH3GCCQr7ZRa8ZyFvBFmR10q9L1D3sOnOw==",
+  "dgSpecHash": "bPC0qV+wyKD72FiU8HaJkO5wGF1F2qm6uAIjYNs0spbfQp0Gu6QAjVPsIRiauo/3FXO4x/ViEHV7rFGjDRK/Ng==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\gabri\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql.design\\1.1.0\\npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\rabbitmq.client\\7.0.0-rc.5\\rabbitmq.client.7.0.0-rc.5.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

@@ -1,5 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using SivirCoffee.OrderService.Infraestructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+
+builder.Services.AddDbContext<OrderDBContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 // Add services to the container.
 
 builder.Services.AddControllers();
