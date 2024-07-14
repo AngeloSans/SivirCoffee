@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SivirCoffee.MenuService.props" />
+</Project>
