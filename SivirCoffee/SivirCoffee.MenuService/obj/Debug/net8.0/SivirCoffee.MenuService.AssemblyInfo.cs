@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SivirCoffee.MenuService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42a1e91c61f42d904ad0b2b00af662181ee08566")]
 [assembly: System.Reflection.AssemblyProductAttribute("SivirCoffee.MenuService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SivirCoffee.MenuService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

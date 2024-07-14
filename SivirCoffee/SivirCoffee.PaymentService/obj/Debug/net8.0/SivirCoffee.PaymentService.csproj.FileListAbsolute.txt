@@ -106,3 +106,4 @@ C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.P
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.PaymentService\obj\Debug\net8.0\SivirCoffee.PaymentService.pdb
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.PaymentService\obj\Debug\net8.0\SivirCoffee.PaymentService.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.PaymentService\obj\Debug\net8.0\ref\SivirCoffee.PaymentService.dll
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.PaymentService\bin\Debug\net8.0\RabbitMQ.Client.dll

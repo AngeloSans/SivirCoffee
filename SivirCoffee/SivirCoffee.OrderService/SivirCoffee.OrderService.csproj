@@ -25,10 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SivirCoffee.MenuService\SivirCoffee.MenuService.csproj" />
   </ItemGroup>
 
