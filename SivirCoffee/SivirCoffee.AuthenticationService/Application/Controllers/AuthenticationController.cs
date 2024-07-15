@@ -1,78 +1,86 @@
-﻿using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SivirCoffee.AuthenticationService.Entities;
+using SivirCoffee.AuthenticationService.Entities.DTO;
 using SivirCoffee.AuthenticationService.Infrastructure.Repository;
 using SivirCoffee.AuthenticationService.Service;
+using System;
+using System.Threading.Tasks;
 
-namespace SivirCoffee.AuthenticationService.Application.Controllers;
-[Route("/[controller]")]
-[ApiController]
-public class AuthenticationController : Controller
+namespace SivirCoffee.AuthenticationService.Application.Controllers
 {
-    private readonly UserService _userService;
-    private readonly IUserRepository _userRepository;
-
-    public AuthenticationController(UserService userService, IUserRepository userRepository)
+    [Route("/[controller]")]
+    [ApiController]
+    public class AuthenticationController : ControllerBase
     {
-        _userService = userService;
-        _userRepository = userRepository;
-    }
-    
-    
+        private readonly UserService _userService;
+        private readonly IUserRepository _userRepository;
 
-    [HttpGet("GetAllUsers")]
-    public async Task<IActionResult> GetAllUser()
-    {
-        var user = await _userRepository.GetAllUserAsync();
-        if (user == null)
+        public AuthenticationController(UserService userService, IUserRepository userRepository)
         {
-            return BadRequest("Users not exist please registre");
-        }
-        return Ok (user);
-    }
-
-    [HttpPost("CreateUser", Name = "CreateUser")]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> SignUp([FromBody] User user)
-    {
-        if (user == null)
-        {
-            return BadRequest("Invalid");
-        }
-        await _userRepository.AddAsync(user);
-        return Ok("user created");
-    }
-
-    [HttpPost("Login")]
-    public async Task<IActionResult> Login([FromBody] LoginRequest request)
-    {
-        var user = await _userRepository.GetByUserNameAsync(request.UserName);
-        if (user == null || user.Password != request.Password)
-        {
-            return Unauthorized("Invalid username or password");
+            _userService = userService;
+            _userRepository = userRepository;
         }
 
-        var token = _userService.Authenticate(request.UserName, request.Password);
-        return Ok(new { Token = token });
-    }
-
-    [HttpDelete("DeleteUserId/{id}")]
-    public async Task<IActionResult> DeleteUser(Guid id)
-    {
-        var user = await _userRepository.GetByIdAsync(id);
-        if (user == null)
+        [HttpGet("GetAllUsers")]
+        public async Task<IActionResult> GetAllUsers()
         {
-            return NotFound();
+            var users = await _userRepository.GetAllUserAsync();
+            if (users == null)
+            {
+                return NotFound("No users found.");
+            }
+            return Ok(users);
         }
 
-        await _userRepository.DeleteByIdAsync(id);
-        return Ok("UserDeleted");
-    }
-}
+        [HttpPost("CreateUser", Name = "CreateUser")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> CreateUser([FromBody] UserDTO userDTO)
+        {
+            if (userDTO == null)
+            {
+                return BadRequest("Invalid user data.");
+            }
 
-public class LoginRequest
-{
-    public string UserName { get; set; }
-    public string Password { get; set; }
+            
+            var user = await _userService.CreateAsync(userDTO);
+            if (user == null)
+            {
+                return BadRequest("Failed to create user.");
+            }
+
+            return Ok("User created successfully.");
+        }
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            var token = await _userService.LoginAsync(request.UserName, request.Password);
+            if (token == null)
+            {
+                return Unauthorized("Invalid username or password.");
+            }
+
+            return Ok(new { Token = token });
+        }
+
+        [HttpDelete("DeleteUser/{id}")]
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            var user = await _userRepository.GetByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound("User not found.");
+            }
+
+            await _userRepository.DeleteByIdAsync(id);
+            return Ok("User deleted successfully.");
+        }
+    }
+
+    public class LoginRequest
+    {
+        public string UserName { get; set; }
+        public string Password { get; set; }
+    }
 }

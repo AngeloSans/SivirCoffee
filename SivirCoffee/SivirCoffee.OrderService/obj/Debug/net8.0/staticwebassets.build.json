@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "kGXZ/XiLvhXwNVY3QBuvSvTuX/FX61ASEW4D9a3uQt8=",
+  "Hash": "A3uSu4/ckSLZB1hUisRLVU7OCSe+03Uar9A5YlC3jAc=",
   "Source": "SivirCoffee.OrderService",
   "BasePath": "_content/SivirCoffee.OrderService",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
+      "Version": 2,
+      "Source": "SivirCoffee.MenuService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

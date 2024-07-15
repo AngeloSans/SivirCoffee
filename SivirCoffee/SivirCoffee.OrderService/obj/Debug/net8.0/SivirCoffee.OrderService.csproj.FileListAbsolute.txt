@@ -106,3 +106,9 @@ C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.O
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.pdb
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\SivirCoffee.OrderService.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\obj\Debug\net8.0\ref\SivirCoffee.OrderService.dll
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.MenuService.deps.json
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.MenuService.runtimeconfig.json
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.MenuService.exe
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.MenuService.dll
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.MenuService.pdb

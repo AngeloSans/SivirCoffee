@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DWV2rWy26SpeFdUXLHMg0zt/e18ebTo008bapxrTYdWxEtWuW2EMJukSr7h1rmYoLjb9KD38j2ogYytANX07hA==",
+  "dgSpecHash": "bNI5h9ca3MQ6v0tsTbpZApp036LpR77tGSJL3c/txzdid3vrvA8wM/AedCsb+ZENzt+1Ml9dgb+qQEhAgmUXCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

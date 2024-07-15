@@ -14,6 +14,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
+          "RabbitMQ.Client": "7.0.0-rc.5",
+          "SivirCoffee.MenuService": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -496,6 +498,17 @@
           "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {
             "assemblyVersion": "1.1.0.0",
             "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "RabbitMQ.Client/7.0.0-rc.5": {
+        "dependencies": {
+          "System.IO.Pipelines": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
           }
         }
       },
@@ -1243,6 +1256,18 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "SivirCoffee.MenuService/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.7",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "runtime": {
+          "SivirCoffee.MenuService.dll": {}
+        }
       }
     }
   },
@@ -1489,6 +1514,13 @@
       "sha512": "sha512-+taA6t8sRI0JTbyCZH0GobEtJYvU4aAGBf5/2/CutWHiYpO2nLfJ8SQSyWYMKakrwn1/NDM9VV85mGEAzBZ7LQ==",
       "path": "npgsql.entityframeworkcore.postgresql.design/1.1.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512"
+    },
+    "RabbitMQ.Client/7.0.0-rc.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HvRtTaG8f6tptTDUTIHnJvUPiIf0hFCvjNusJTtlqNVqJWyM+QvCzCjGf39XYUf/ydf8Y45PU/EcTsvVUkNzlA==",
+      "path": "rabbitmq.client/7.0.0-rc.5",
+      "hashPath": "rabbitmq.client.7.0.0-rc.5.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -2105,6 +2137,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "SivirCoffee.MenuService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

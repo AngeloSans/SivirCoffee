@@ -9,6 +9,6 @@ namespace SivirCoffee.OrderService.Application.Controllers;
 public class OrderController : Controller
 {
     private readonly IMenuRepository menuRepository;
-    [HttpGet]
+    
     
 }

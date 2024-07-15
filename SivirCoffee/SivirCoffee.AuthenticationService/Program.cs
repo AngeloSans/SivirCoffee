@@ -1,21 +1,29 @@
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using SivirCoffee.AuthenticationService.Infrastructure;
+using SivirCoffee.AuthenticationService.Application.Service;
 using SivirCoffee.AuthenticationService.Infrastructure.Repository;
+using SivirCoffee.AuthenticationService.Infrastructure;
 using SivirCoffee.AuthenticationService.Service;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AuthenticationDBContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<JwtService>();
 
+// Configure JwtService
+builder.Services.AddScoped<JwtService>(serviceProvider =>
+{
+    var configuration = serviceProvider.GetRequiredService<IConfiguration>();
+    var key = configuration["Jwt:Key"];
+    var expiryDuration = configuration.GetValue<int>("Jwt:ExpireMinutes"); 
+
+    return new JwtService(key, expiryDuration);
+});
 
 // Add services to the container.
 builder.Services.AddControllers();

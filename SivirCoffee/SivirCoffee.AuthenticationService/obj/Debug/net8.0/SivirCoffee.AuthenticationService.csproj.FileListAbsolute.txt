@@ -115,3 +115,4 @@ C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.A
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\BCrypt.Net-Next.dll
