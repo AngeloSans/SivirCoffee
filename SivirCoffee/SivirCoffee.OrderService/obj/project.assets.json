@@ -7387,6 +7387,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
+      "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
       "RabbitMQ.Client >= 7.0.0-rc.5",
@@ -7456,6 +7457,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.7, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
