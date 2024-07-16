@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "OX1dMFLAURFvOMVECgI3u/GZj+MHKC+PUDYkoxPQywY=",
+  "Hash": "9X47welp4JgOhH7VZPH/DdEYCijufbDGn/jYV6G68aA=",
   "Source": "SivirCoffee.AuthenticationService",
   "BasePath": "_content/SivirCoffee.AuthenticationService",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
+      "Version": 2,
+      "Source": "SivirCoffee.MenuService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
