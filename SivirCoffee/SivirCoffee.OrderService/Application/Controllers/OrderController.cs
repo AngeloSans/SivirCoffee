@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿/*using Microsoft.AspNetCore.Mvc;
 using SivirCoffee.ProductService.Infrastructure;
 using SivirCoffee.ProductService.Repository;
 
@@ -12,3 +12,4 @@ public class OrderController : Controller
     
     
 }
+*/

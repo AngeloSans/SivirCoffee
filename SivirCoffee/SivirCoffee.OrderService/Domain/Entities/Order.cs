@@ -8,6 +8,11 @@ namespace SivirCoffee.OrderService.Entities
         [Key]
         public Guid Id { get; set; }
 
+        [Required]
+        public double AmountOrder { get; set; }
+
+
         public OrderStatus Status { get; set; }
+
     }
 }
