@@ -4,7 +4,8 @@ namespace SivirCoffee.ProductService.Repository
 {
     public interface IMenuRepository
     {
-        Task<IEnumerable<Candy>> GetAllProducts();
+        Task<IEnumerable<Candy>> GetCandies();
+        
         
     }
 }
