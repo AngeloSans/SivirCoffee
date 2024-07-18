@@ -1,9 +1,8 @@
-﻿namespace SivirCoffee.OrderService.Domain.Entities
+﻿namespace SivirCoffee.OrderService.Entities;
+
+public enum OrderStatus
 {
-    public enum OrderStatus
-    {
-        Pending,
-        Concluded,
-        Canceled
-    }
+    Pending,
+    Concluded,
+    Canceled
 }

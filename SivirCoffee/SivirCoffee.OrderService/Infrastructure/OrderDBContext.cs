@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SivirCoffee.OrderService.Domain.Entities;
 using SivirCoffee.OrderService.Entities;
 
 namespace SivirCoffee.OrderService.Infrastructure

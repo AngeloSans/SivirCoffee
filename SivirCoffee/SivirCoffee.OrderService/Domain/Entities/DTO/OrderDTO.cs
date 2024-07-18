@@ -1,6 +1,4 @@
-﻿using SivirCoffee.OrderService.Domain.Entities;
-using System.ComponentModel.DataAnnotations;
-
+﻿
 namespace SivirCoffee.OrderService.Entities.DTO
 {
     public class OrderDTO

@@ -15,10 +15,10 @@ public class MenuController : Controller
         _menuRepository = menuRepository;
     }
 
-    [HttpGet("GetAllProduct")]
-    public async Task<IActionResult> GetAllProducts()
+    [HttpGet("GetAllMenu")]
+    public async Task<IActionResult> GetAllMenu()
     {
-        var products = await _menuRepository.GetAllProducts();
+        var products = await _menuRepository.GetCandies();
         return Ok(products);
     }
 }

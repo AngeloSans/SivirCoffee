@@ -1,11 +1,19 @@
-﻿using SivirCoffee.ProductService.Domain.Entities;
+﻿using System.Collections;
+using SivirCoffee.ProductService.Domain.Entities;
 
 namespace SivirCoffee.ProductService.Repository
 {
     public interface IMenuRepository
     {
-        Task<IEnumerable<Candy>> GetCandies();
-        
-        
+        Task<IEnumerable<T>> GetAllMenu<T>();
+
+        Task AddToMenu(T entity);
+
+        Task UpdateMenu(T entity);
+
+        Task DeleteMenuById(Guid id);
+
+
+
     }
 }

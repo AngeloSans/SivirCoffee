@@ -13,8 +13,33 @@ public class MenuRepository : IMenuRepository
         _dBcontext = dBcontext;
     }
 
-    public async Task<IEnumerable<Candy>> GetAllProducts()
+    public Task<IEnumerable<Candy>> GetCandies()
     {
-        return await _dBcontext.Candies.ToListAsync();
+        throw new NotImplementedException();
+    }
+
+    public Task<IEnumerable<Coffee>> GetCoffies()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<IEnumerable<Condiments>> getCondiments()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task AddToMenu(Condiments condiments)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateMenu(Condiments condiments)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DeleteMenuById(Guid id)
+    {
+        throw new NotImplementedException();
     }
 }

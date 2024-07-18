@@ -1,5 +1,6 @@
-﻿using SivirCoffee.OrderService.Domain.Entities;
+﻿
 using System.ComponentModel.DataAnnotations;
+using SivirCoffee.ProductService.Domain.Entities;
 
 namespace SivirCoffee.OrderService.Entities
 {
@@ -10,8 +11,14 @@ namespace SivirCoffee.OrderService.Entities
 
         [Required]
         public double AmountOrder { get; set; }
-
-
+        
+        public Coffee Coffee { get; set; }
+        
+        public Candy Candy { get; set; }
+        
+        public Condiments Condiments { get; set; }
+        
+        [Required]
         public OrderStatus Status { get; set; }
 
     }
