@@ -1,6 +1,10 @@
-﻿namespace SivirCoffee.PaymentService.Repository
+﻿using SivirCoffee.PaymentService.Entities;
+
+namespace SivirCoffee.PaymentService.Repository
 {
     public interface IPaymentRepository
     {
+        Task<IEnumerable<TypePayment>> GetPaymentMethods();
+        Task MakePayment(Payment);
     }
 }

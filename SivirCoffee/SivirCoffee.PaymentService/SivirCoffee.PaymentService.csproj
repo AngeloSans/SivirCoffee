@@ -27,7 +27,6 @@
   <ItemGroup>
     <Folder Include="Application\Controllers\" />
     <Folder Include="Domain\" />
-    <Folder Include="Infraestrucuture\" />
   </ItemGroup>
 
 </Project>
