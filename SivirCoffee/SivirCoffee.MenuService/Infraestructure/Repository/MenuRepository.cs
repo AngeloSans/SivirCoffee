@@ -23,7 +23,17 @@ public class MenuRepository : IMenuRepository
         throw new NotImplementedException();
     }
 
+    public Task<IEnumerable<Condiments>> GetCondiments()
+    {
+        throw new NotImplementedException();
+    }
+
     public Task<IEnumerable<Condiments>> getCondiments()
+    {
+        throw new NotImplementedException();
+    }
+
+    Task<IEnumerable<T>> IRepository<Condiments>.GetAllMenu<T>()
     {
         throw new NotImplementedException();
     }
@@ -34,6 +44,36 @@ public class MenuRepository : IMenuRepository
     }
 
     public Task UpdateMenu(Condiments condiments)
+    {
+        throw new NotImplementedException();
+    }
+
+    Task<IEnumerable<T>> IRepository<Candy>.GetAllMenu<T>()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task AddToMenu(Coffee entity)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateMenu(Coffee entity)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task AddToMenu(Candy entity)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateMenu(Candy entity)
+    {
+        throw new NotImplementedException();
+    }
+
+    Task<IEnumerable<T>> IRepository<Coffee>.GetAllMenu<T>()
     {
         throw new NotImplementedException();
     }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SivirCoffee.ProductService.Infrastructure;
-using SivirCoffee.ProductService.Repository;
+using SivirCoffee.OrderService.Application.Service;
+
 
 namespace SivirCoffee.OrderService.Application.Controllers;
 
@@ -8,7 +8,11 @@ namespace SivirCoffee.OrderService.Application.Controllers;
 [ApiController]
 public class OrderController : Controller
 {
-    private readonly OrderService _orderService;
-    
+    private readonly IOrderService _orderService;
+
+    public OrderController(IOrderService orderService)
+    {
+        _orderService = OrderService;
+    }
     
 }
