@@ -15,7 +15,7 @@ public class MenuRepository : IMenuRepository
 
     public Task<IEnumerable<Candy>> GetCandies()
     {
-        throw new NotImplementedException();
+        return await _dBcontext.TolistAsync();
     }
 
     public Task<IEnumerable<Coffee>> GetCoffies()
@@ -30,7 +30,7 @@ public class MenuRepository : IMenuRepository
 
     public Task<IEnumerable<Condiments>> getCondiments()
     {
-        throw new NotImplementedException();
+        return await _dBcontext.Toli
     }
 
     Task<IEnumerable<T>> IRepository<Condiments>.GetAllMenu<T>()
@@ -65,12 +65,17 @@ public class MenuRepository : IMenuRepository
 
     public Task AddToMenu(Candy entity)
     {
-        throw new NotImplementedException();
+        return await _dBcontext.SaveChanges(Candy);
     }
 
     public Task UpdateMenu(Candy entity)
     {
-        throw new NotImplementedException();
+        var MenuUpdate = await _dBcontext.FindAsync(id);
+        if (MenuUpdate == null)
+        {
+            throw new Exception("menu already exist!");
+        }
+        return await 
     }
 
     Task<IEnumerable<T>> IRepository<Coffee>.GetAllMenu<T>()
@@ -80,6 +85,12 @@ public class MenuRepository : IMenuRepository
 
     public Task DeleteMenuById(Guid id)
     {
-        throw new NotImplementedException();
+        var MenuId = await _dBcontext.FindAsync(id);
+        if (MenuId == null)
+        {
+            throw new Exception("menu doesnt exist!");
+        }
+
+        return await _dBcontext.Remove(MenuId);
     }
 }

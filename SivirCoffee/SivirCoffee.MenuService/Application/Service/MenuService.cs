@@ -14,7 +14,14 @@ namespace SivirCoffee.ProductService.Application.Service
 
         public Task AddToMenuAsync(CondimentsDTO condimentsDTO)
         {
-            throw new NotImplementedException();
+            var condiment = _menuRepository.GetCondiments();
+            if (condiment == null)
+            {
+                throw new Exception("element is equal to null");
+            }
+
+            return _menuRepository.AddToMenu(condimentsDTO);
+            
         }
 
         public Task<IEnumerable<CoffeeDTO>> Cafes()
