@@ -30,7 +30,7 @@ public class MenuRepository : IMenuRepository
 
     public Task<IEnumerable<Condiments>> getCondiments()
     {
-        return await _dBcontext.Toli
+        throw new NotImplementedException();
     }
 
     Task<IEnumerable<T>> IRepository<Condiments>.GetAllMenu<T>()
@@ -75,7 +75,8 @@ public class MenuRepository : IMenuRepository
         {
             throw new Exception("menu already exist!");
         }
-        return await 
+
+        return await _dBcontext.SaveChanges(Candy);
     }
 
     Task<IEnumerable<T>> IRepository<Coffee>.GetAllMenu<T>()
