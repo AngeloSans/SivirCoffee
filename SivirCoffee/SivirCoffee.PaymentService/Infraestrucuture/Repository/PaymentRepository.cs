@@ -8,21 +8,21 @@ namespace SivirCoffee.PaymentService.Repository
 {
     public class PaymentRepository : IPaymentRepository
     {
-        private readonly PaymentDBContext _dbContext;
+        private readonly PaymentDbContext _dbContext;
 
-        public PaymentRepository(PaymentDBContext dbContext)
+        public PaymentRepository(PaymentDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<TypePayment>> GetPaymentMethods()
+        public async Task<List<Payment>> GetPaymentMethods()
         {
-            return await _dbContext
+            return await _dbContext.Payments.ToListAsync();
         }
 
         public async Task MakePayment(Payment payment)
         {
-            await _dbContext.
+            await _dbContext.Payments.AddAsync(payment);
             await _dbContext.SaveChangesAsync();
         }
 
@@ -31,7 +31,7 @@ namespace SivirCoffee.PaymentService.Repository
             var payment = await _dbContext.Payments.FindAsync(id);
             if (payment != null)
             {
-                payment.IsCanceled = true; // Supondo que há uma propriedade IsCanceled na entidade Payment
+                payment.IsCanceled = true; 
                 _dbContext.Payments.Update(payment);
                 await _dbContext.SaveChangesAsync();
             }

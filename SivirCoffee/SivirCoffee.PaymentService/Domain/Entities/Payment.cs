@@ -10,6 +10,8 @@ namespace SivirCoffee.PaymentService.Entities
         public decimal Amount { get; set; }
         [Required]
         public DateTime PaymentDate { get; set; }
+        [Required]
+        public bool IsCanceled { get; set; }
         
     }
 }
