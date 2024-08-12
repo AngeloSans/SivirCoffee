@@ -5,6 +5,11 @@ namespace SivirCoffee.PaymentService.Entities
     public class Payment
     {
         [Key]
-        private Guid Id { get; set; }
+        public Guid Id { get; set; }
+        [Required]
+        public decimal Amount { get; set; }
+        [Required]
+        public DateTime PaymentDate { get; set; }
+        
     }
 }
