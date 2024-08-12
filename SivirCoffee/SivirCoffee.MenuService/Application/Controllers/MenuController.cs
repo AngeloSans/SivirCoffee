@@ -18,7 +18,7 @@ public class MenuController : Controller
     [HttpGet("GetAllMenu")]
     public async Task<IActionResult> GetAllMenu()
     {
-        var products = await _menuRepository.GetCandies();
+        var products = await _menuRepository.GetCandiesAsync();
         return Ok(products);
     }
 }

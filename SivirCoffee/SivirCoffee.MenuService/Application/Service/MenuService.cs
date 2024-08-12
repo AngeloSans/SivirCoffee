@@ -14,13 +14,13 @@ namespace SivirCoffee.ProductService.Application.Service
 
         public Task AddToMenuAsync(CondimentsDTO condimentsDTO)
         {
-            var condiment = _menuRepository.GetCondiments();
+            var condiment = _menuRepository.GetCondimentsAsync();
             if (condiment == null)
             {
                 throw new Exception("element is equal to null");
             }
 
-            return _menuRepository.AddToMenu(condimentsDTO);
+            return _menuRepository.AddCondimentAsync(condimentsDTO);
             
         }
 
