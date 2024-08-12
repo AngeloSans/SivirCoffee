@@ -2,11 +2,9 @@
 
 public interface IRepository<T>
 {
-    Task<IEnumerable<T>> GetAllMenu<T>();
-
-    Task AddToMenu(T entity);
-
-    Task UpdateMenu(T entity);
-
-    Task DeleteMenuById(Guid id);
+    Task<IEnumerable<T>> GetAllAsync();
+    Task<T> GetByIdAsync(Guid id);
+    Task AddAsync(T entity);
+    Task UpdateAsync(T entity);
+    Task DeleteByIdAsync(Guid id);
 }

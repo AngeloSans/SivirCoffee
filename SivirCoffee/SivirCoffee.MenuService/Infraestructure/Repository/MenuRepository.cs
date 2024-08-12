@@ -2,96 +2,97 @@
 using SivirCoffee.ProductService.Domain.Entities;
 using SivirCoffee.ProductService.Infrastructure;
 
-namespace SivirCoffee.ProductService.Repository;
-
-public class MenuRepository : IMenuRepository
+namespace SivirCoffee.ProductService.Repository
 {
-    private readonly MenuServiceDBcontext _dBcontext;
-
-    public MenuRepository(MenuServiceDBcontext dBcontext)
+    public class MenuRepository : IMenuRepository
     {
-        _dBcontext = dBcontext;
-    }
+        private readonly MenuServiceDBcontext _dbContext;
 
-    public Task<IEnumerable<Candy>> GetCandies()
-    {
-        return await _dBcontext.TolistAsync();
-    }
-
-    public Task<IEnumerable<Coffee>> GetCoffies()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<IEnumerable<Condiments>> GetCondiments()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<IEnumerable<Condiments>> getCondiments()
-    {
-        throw new NotImplementedException();
-    }
-
-    Task<IEnumerable<T>> IRepository<Condiments>.GetAllMenu<T>()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task AddToMenu(Condiments condiments)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task UpdateMenu(Condiments condiments)
-    {
-        throw new NotImplementedException();
-    }
-
-    Task<IEnumerable<T>> IRepository<Candy>.GetAllMenu<T>()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task AddToMenu(Coffee entity)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task UpdateMenu(Coffee entity)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task AddToMenu(Candy entity)
-    {
-        return await _dBcontext.SaveChanges(Candy);
-    }
-
-    public Task UpdateMenu(Candy entity)
-    {
-        var MenuUpdate = await _dBcontext.FindAsync(id);
-        if (MenuUpdate == null)
+        public MenuRepository(MenuServiceDBcontext dbContext)
         {
-            throw new Exception("menu already exist!");
+            _dbContext = dbContext;
         }
 
-        return await _dBcontext.SaveChanges(Candy);
-    }
-
-    Task<IEnumerable<T>> IRepository<Coffee>.GetAllMenu<T>()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task DeleteMenuById(Guid id)
-    {
-        var MenuId = await _dBcontext.FindAsync(id);
-        if (MenuId == null)
+        public async Task<IEnumerable<Candy>> GetCandiesAsync()
         {
-            throw new Exception("menu doesnt exist!");
+            return await _dbContext.Candies.ToListAsync();
         }
 
-        return await _dBcontext.Remove(MenuId);
+        public async Task<IEnumerable<Coffee>> GetCoffeesAsync()
+        {
+            return await _dbContext.Coffees.ToListAsync();
+        }
+
+        public async Task<IEnumerable<Condiments>> GetCondimentsAsync()
+        {
+            return await _dbContext.Condiments.ToListAsync();
+        }
+
+        public async Task AddCandyAsync(Candy candy)
+        {
+            await _dbContext.Candies.AddAsync(candy);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task AddCoffeeAsync(Coffee coffee)
+        {
+            await _dbContext.Coffees.AddAsync(coffee);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task AddCondimentAsync(Condiments condiment)
+        {
+            await _dbContext.Condiments.AddAsync(condiment);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateCandyAsync(Candy candy)
+        {
+            _dbContext.Candies.Update(candy);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateCoffeeAsync(Coffee coffee)
+        {
+            _dbContext.Coffees.Update(coffee);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateCondimentAsync(Condiments condiment)
+        {
+            _dbContext.Condiments.Update(condiment);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task DeleteMenuByIdAsync(Guid id)
+        {
+            var candy = await _dbContext.Candies.FindAsync(id);
+            if (candy != null)
+            {
+                _dbContext.Candies.Remove(candy);
+            }
+            else
+            {
+                var coffee = await _dbContext.Coffees.FindAsync(id);
+                if (coffee != null)
+                {
+                    _dbContext.Coffees.Remove(coffee);
+                }
+                else
+                {
+                    var condiment = await _dbContext.Condiments.FindAsync(id);
+                    if (condiment != null)
+                    {
+                        _dbContext.Condiments.Remove(condiment);
+                    }
+                    else
+                    {
+                        throw new Exception("Menu item not found!");
+                    }
+                }
+            }
+            await _dbContext.SaveChangesAsync();
+        }
+
     }
 }

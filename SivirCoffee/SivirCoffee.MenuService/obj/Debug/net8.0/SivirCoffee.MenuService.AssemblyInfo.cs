@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SivirCoffee.MenuService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+200a08cfc4f14d2f7ca639bcb474d17c0e78b024")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4499bd1535ac1446f5ae22dd0f45b1d4f265d3f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SivirCoffee.MenuService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SivirCoffee.MenuService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
