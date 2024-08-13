@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ironllrT4izzb9xT3hOcfmHmJTabTZMgxlCjE2OqbaqDViC1VZruyHpfUbZQCpw/CoFBmC088N+OM4YiUUKt8g==",
+  "dgSpecHash": "dMMjn3EycogekdqRRxdhwGvAbHwYLL+/2+KtUpWsYLqhBtyT85Rug8IEqlayIzOojZY3iofK6QCC5CjFizD0EQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",

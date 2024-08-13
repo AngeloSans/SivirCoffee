@@ -1,53 +1,75 @@
-﻿/*using SivirCoffee.ProductService.Domain.Entities.DTO;
+﻿using AutoMapper;
+using SivirCoffee.ProductService.Domain.Entities;
+using SivirCoffee.ProductService.Domain.Entities.DTO;
 using SivirCoffee.ProductService.Repository;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SivirCoffee.ProductService.Application.Service
 {
     public class MenuService : IMenuService
     {
         private readonly IMenuRepository _menuRepository;
+        private readonly IMapper _mapper;
 
-        public MenuService(IMenuRepository menuRepository)
+        public MenuService(IMenuRepository menuRepository, IMapper mapper)
         {
             _menuRepository = menuRepository;
+            _mapper = mapper;
         }
 
-        public Task AddToMenuAsync(CondimentsDTO condimentsDTO)
+        public async Task<IEnumerable<CandyDTO>> GetCandiesAsync()
         {
-            var condiment = _menuRepository.GetCondimentsAsync();
-            if (condiment == null)
-            {
-                throw new Exception("element is equal to null");
-            }
-
-            return _menuRepository.AddCondimentAsync(condimentsDTO);
-            
+            var candies = await _menuRepository.GetCandiesAsync();
+            return _mapper.Map<IEnumerable<CandyDTO>>(candies);
         }
 
-        public Task<IEnumerable<CoffeeDTO>> Cafes()
+        public async Task<IEnumerable<CoffeeDTO>> GetCoffeeAsync()
         {
-            throw new NotImplementedException();
+            var coffees = await _menuRepository.GetCoffeesAsync();
+            return _mapper.Map<IEnumerable<CoffeeDTO>>(coffees);
         }
 
-        public Task<IEnumerable<CandyDTO>> Candies()
+        public async Task<IEnumerable<CondimentsDTO>> GetCondimentsAsync()
         {
-            throw new NotImplementedException();
+            var condiments = await _menuRepository.GetCondimentsAsync();
+            return _mapper.Map<IEnumerable<CondimentsDTO>>(condiments);
         }
 
-        public Task<IEnumerable<CondimentsDTO>> Condiments()
+        public async Task AddCandyAsync(CandyDTO candyDto)
         {
-            throw new NotImplementedException();
+            var candy = _mapper.Map<Candy>(candyDto);
+            await _menuRepository.AddCandyAsync(candy);
         }
 
-        public Task RemoverToMenuAsync(CondimentsDTO condimentsDTO)
+        public async Task AddCoffeeAsync(CoffeeDTO coffeeDto)
         {
-            throw new NotImplementedException();
+            var coffee = _mapper.Map<Coffee>(coffeeDto);
+            await _menuRepository.AddCoffeeAsync(coffee);
         }
 
-        public Task UpdateToMenuAsync(CandyDTO candyDTO)
+        public async Task AddCondimentsAsync(CondimentsDTO condimentsDto)
         {
-            throw new NotImplementedException();
+            var condiment = _mapper.Map<Condiments>(condimentsDto);
+            await _menuRepository.AddCondimentAsync(condiment);
+        }
+
+        public async Task UpdateCandyAsync(CandyDTO candyDto)
+        {
+            var candy = _mapper.Map<Candy>(candyDto);
+            await _menuRepository.UpdateCandyAsync(candy);
+        }
+
+        public async Task UpdateCoffeeAsync(CoffeeDTO coffeeDto)
+        {
+            var coffee = _mapper.Map<Coffee>(coffeeDto);
+            await _menuRepository.UpdateCoffeeAsync(coffee);
+        }
+
+        public async Task UpdateCondimentsAsync(CondimentsDTO condimentsDto)
+        {
+            var condiment = _mapper.Map<Condiments>(condimentsDto);
+            await _menuRepository.UpdateCondimentAsync(condiment);
         }
     }
 }
-*/

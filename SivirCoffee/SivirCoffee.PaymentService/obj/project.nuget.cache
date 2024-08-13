@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bPC0qV+wyKD72FiU8HaJkO5wGF1F2qm6uAIjYNs0spbfQp0Gu6QAjVPsIRiauo/3FXO4x/ViEHV7rFGjDRK/Ng==",
+  "dgSpecHash": "8w8+8jJrOVQ6jhJjCqrbYFDwCd8/HqH+ZNcJ83SGkx7U5pHbumyGg/fLvI7I0ewRkKv//y7EUq7aK7ZqjZxvJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

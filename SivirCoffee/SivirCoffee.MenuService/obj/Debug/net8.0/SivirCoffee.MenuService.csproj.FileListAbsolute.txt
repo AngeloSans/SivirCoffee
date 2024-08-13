@@ -106,3 +106,4 @@ C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.M
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.MenuService\obj\Debug\net8.0\SivirCoffee.MenuService.pdb
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.MenuService\obj\Debug\net8.0\SivirCoffee.MenuService.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.MenuService\obj\Debug\net8.0\ref\SivirCoffee.MenuService.dll
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.MenuService\bin\Debug\net8.0\AutoMapper.dll

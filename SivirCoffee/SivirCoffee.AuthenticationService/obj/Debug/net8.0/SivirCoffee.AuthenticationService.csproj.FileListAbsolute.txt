@@ -121,3 +121,4 @@ C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.A
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\SivirCoffee.MenuService.exe
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\SivirCoffee.MenuService.dll
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\SivirCoffee.MenuService.pdb
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.AuthenticationService\bin\Debug\net8.0\AutoMapper.dll
