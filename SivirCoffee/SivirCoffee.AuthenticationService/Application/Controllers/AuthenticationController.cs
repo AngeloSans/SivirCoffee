@@ -35,14 +35,19 @@ namespace SivirCoffee.AuthenticationService.Application.Controllers
         [HttpPost("CreateUser", Name = "CreateUser")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CreateUser([FromBody] UserDTO userDTO)
+        public async Task<IActionResult> CreateUser([FromQuery] string userName, [FromQuery] string password)
         {
-            if (userDTO == null)
+            if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
             {
                 return BadRequest("Invalid user data.");
             }
 
-            
+            var userDTO = new UserDTO
+            {
+                Name = userName,
+                Password = password
+            };
+
             var user = await _userService.CreateAsync(userDTO);
             if (user == null)
             {
@@ -52,10 +57,11 @@ namespace SivirCoffee.AuthenticationService.Application.Controllers
             return Ok("User created successfully.");
         }
 
+
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        public async Task<IActionResult> Login([FromQuery] string userName, [FromQuery] string password)
         {
-            var token = await _userService.LoginAsync(request.UserName, request.Password);
+            var token = await _userService.LoginAsync(userName, password);
             if (token == null)
             {
                 return Unauthorized("Invalid username or password.");

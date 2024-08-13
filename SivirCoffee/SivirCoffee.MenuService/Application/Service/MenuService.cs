@@ -1,4 +1,4 @@
-﻿using SivirCoffee.ProductService.Domain.Entities.DTO;
+﻿/*using SivirCoffee.ProductService.Domain.Entities.DTO;
 using SivirCoffee.ProductService.Repository;
 
 namespace SivirCoffee.ProductService.Application.Service
@@ -50,3 +50,4 @@ namespace SivirCoffee.ProductService.Application.Service
         }
     }
 }
+*/
