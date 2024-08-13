@@ -2476,6 +2476,28 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "SivirCoffee.PaymentService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.EntityFrameworkCore": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.7",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
+          "RabbitMQ.Client": "7.0.0-rc.5",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/SivirCoffee.PaymentService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SivirCoffee.PaymentService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -7762,6 +7784,11 @@
       "type": "project",
       "path": "../SivirCoffee.MenuService/SivirCoffee.MenuService.csproj",
       "msbuildProject": "../SivirCoffee.MenuService/SivirCoffee.MenuService.csproj"
+    },
+    "SivirCoffee.PaymentService/1.0.0": {
+      "type": "project",
+      "path": "../SivirCoffee.PaymentService/SivirCoffee.PaymentService.csproj",
+      "msbuildProject": "../SivirCoffee.PaymentService/SivirCoffee.PaymentService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7778,6 +7805,7 @@
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
       "RabbitMQ.Client >= 7.0.0-rc.5",
       "SivirCoffee.MenuService >= 1.0.0",
+      "SivirCoffee.PaymentService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.IdentityModel.Tokens.Jwt >= 7.6.3"
     ]
@@ -7811,6 +7839,9 @@
           "projectReferences": {
             "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj": {
               "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj"
+            },
+            "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
+              "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj"
             }
           }
         }

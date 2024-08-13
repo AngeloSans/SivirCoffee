@@ -131,3 +131,4 @@ C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.O
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.PaymentService.dll
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.AuthenticationService.pdb
 C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\SivirCoffee.PaymentService.pdb
+C:\Users\gabri\OneDrive\Documents\Projects\SivirCoffee\SivirCoffee\SivirCoffee.OrderService\bin\Debug\net8.0\AutoMapper.dll

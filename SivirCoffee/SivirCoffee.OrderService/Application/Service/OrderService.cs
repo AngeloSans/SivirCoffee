@@ -1,36 +1,39 @@
 ﻿using SivirCoffee.OrderService.Application.Service;
 using SivirCoffee.OrderService.Entities;
 using SivirCoffee.OrderService.Infrastructure.Repository;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SivirCoffee.OrderService.Service
 {
     public class OrderService : IOrderService
     {
-        private readonly IOrderRepository _oderRepository;
+        private readonly IOrderRepository _orderRepository;
 
-        public OrderService(IOrderRepository oderRepository)
+        public OrderService(IOrderRepository orderRepository)
         {
-            _oderRepository = oderRepository;
+            _orderRepository = orderRepository;
         }
 
-        public Task AddOrderAsync(Order order)
+        public async Task AddOrderAsync(Order order)
         {
-            throw new NotImplementedException();
+            await _orderRepository.AddOrderAsync(order);
         }
 
-        public Task DeleteOrderAsync(Guid id)
+        public async Task DeleteOrderAsync(Guid id)
         {
-            throw new NotImplementedException();
+            await _orderRepository.DeleteOrderAsync(id);
         }
 
-        public Task<IEnumerable<Order>> GetAllOrders()
+        public async Task<IEnumerable<Order>> GetAllOrders()
         {
-            throw new NotImplementedException();
+            return await _orderRepository.GetAllOrderAsync();
         }
 
-        public Task<Order> GetOrderById(Guid id)
+        public async Task<Order> GetOrderById(Guid id)
         {
-            throw new NotImplementedException();
+            return await _orderRepository.GetOrderByIdAsync(id);
         }
     }
 }

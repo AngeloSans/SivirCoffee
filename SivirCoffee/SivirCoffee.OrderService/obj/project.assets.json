@@ -2470,6 +2470,7 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
           "RabbitMQ.Client": "7.0.0-rc.5",
           "SivirCoffee.MenuService": "1.0.0",
+          "SivirCoffee.PaymentService": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "System.IdentityModel.Tokens.Jwt": "7.6.3"
         },

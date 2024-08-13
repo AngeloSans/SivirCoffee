@@ -8,5 +8,6 @@ namespace SivirCoffee.OrderService.Application.Service
         Task<Order> GetOrderById(Guid id);
         Task AddOrderAsync(Order order);
         Task DeleteOrderAsync (Guid id);
+        
     }
 }

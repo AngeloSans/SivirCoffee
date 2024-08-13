@@ -35,6 +35,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SivirCoffee.MenuService\SivirCoffee.MenuService.csproj" />
+    <ProjectReference Include="..\SivirCoffee.PaymentService\SivirCoffee.PaymentService.csproj" />
   </ItemGroup>
 
 </Project>
