@@ -4,7 +4,7 @@ namespace SivirCoffee.PaymentService.Repository
 {
     public interface IPaymentRepository
     {
-        Task<List<Payment>> GetPaymentMethods();
+        Task<IEnumerable<TypePayment>> GetPaymentMethods();
         Task MakePayment(Payment payment);
         Task CancelPayment(Guid id);
 

@@ -15,7 +15,7 @@ namespace SivirCoffee.PaymentService.Repository
             _dbContext = dbContext;
         }
 
-        public async Task<List<Payment>> GetPaymentMethods()
+        public async Task<IEnumerable<TypePayment>> GetPaymentMethods()
         {
             return await _dbContext.Payments.ToListAsync();
         }
