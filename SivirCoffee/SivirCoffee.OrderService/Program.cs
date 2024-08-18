@@ -16,7 +16,7 @@ builder.Services.AddDbContext<OrderDBContext>(options =>
 //rabbitmqCOnfigurations
 
 builder.Services.Configure<RabbitMQConfig>(builder.Configuration.GetSection("RabbitMQConfig"));
-//builder.Services.AddSingleton<IRabbitMqPublisher, RabbitMQPublisher>();
+builder.Services.AddSingleton<IRabbitMqPublisher, RabbitMQPublisher>();
 //services.AddSingleton<IHostedService, RabbitMQConsumer>();
 
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();

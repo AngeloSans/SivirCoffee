@@ -2,6 +2,6 @@
 {
     public interface IRabbitMqPublisher
     {
-        void Publish<T>(T message);
+        Task Publish(Object data, string routingKey);
     }
 }

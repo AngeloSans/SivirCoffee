@@ -1,4 +1,4 @@
-﻿/*using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
 using SivirCoffee.OrderService.Infraestructure;
@@ -24,4 +24,3 @@ namespace SivirCoffee.OrderService.Application.Service.RabbitMQService
         }
     }
 }
-*/

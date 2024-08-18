@@ -891,7 +891,7 @@
           "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
         }
       },
-      "RabbitMQ.Client/7.0.0-rc.5": {
+      "RabbitMQ.Client/7.0.0-rc.8": {
         "type": "package",
         "dependencies": {
           "System.IO.Pipelines": "6.0.0"
@@ -4076,10 +4076,10 @@
         "npgsql.entityframeworkcore.postgresql.design.nuspec"
       ]
     },
-    "RabbitMQ.Client/7.0.0-rc.5": {
-      "sha512": "HvRtTaG8f6tptTDUTIHnJvUPiIf0hFCvjNusJTtlqNVqJWyM+QvCzCjGf39XYUf/ydf8Y45PU/EcTsvVUkNzlA==",
+    "RabbitMQ.Client/7.0.0-rc.8": {
+      "sha512": "fGmjNHrtXCzHZ9gYzihJ4f+rPi4qe1rEq3Q/FQT1WxhzsxxRnJViIFTvz1TqFCdx8pOtNjUZRvLC1KmpLBim5Q==",
       "type": "package",
-      "path": "rabbitmq.client/7.0.0-rc.5",
+      "path": "rabbitmq.client/7.0.0-rc.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4089,7 +4089,7 @@
         "lib/net6.0/RabbitMQ.Client.xml",
         "lib/netstandard2.0/RabbitMQ.Client.dll",
         "lib/netstandard2.0/RabbitMQ.Client.xml",
-        "rabbitmq.client.7.0.0-rc.5.nupkg.sha512",
+        "rabbitmq.client.7.0.0-rc.8.nupkg.sha512",
         "rabbitmq.client.nuspec"
       ]
     },
@@ -7834,7 +7834,7 @@
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
-      "RabbitMQ.Client >= 7.0.0-rc.5",
+      "RabbitMQ.Client >= 7.0.0-rc.8",
       "SivirCoffee.AuthenticationService >= 1.0.0",
       "SivirCoffee.MenuService >= 1.0.0",
       "SivirCoffee.PaymentService >= 1.0.0",
@@ -7928,7 +7928,7 @@
           },
           "RabbitMQ.Client": {
             "target": "Package",
-            "version": "[7.0.0-rc.5, )"
+            "version": "[7.0.0-rc.8, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
