@@ -11,24 +11,20 @@ namespace SivirCoffee.PaymentService.Service
         {
             _paymentRepository = paymentRepository;
         }
-        public async Task<IEnumerable<TypePayment>> GetAllPayments()
+        public async Task<IEnumerable<Payment>> GetAllPayments()
         {
-            var payment = await _paymentRepository.GetPaymentMethods();
+            return await _paymentRepository.GetPaymentMethods();
             
-            return payment.Select(p => new TypePayment
-            {
-                Id = p.Id
-            })
         }
 
-        public Task Payment(Payment payment)
+        public async Task Payment(Payment payment)
         {
-            throw new NotImplementedException();
+            await _paymentRepository.MakePayment(payment);
         }
 
-        public Task Repayment(Guid id)
+        public async Task Repayment(Guid id)
         {
-            throw new NotImplementedException();
+            await _paymentRepository.CancelPayment(id);
         }
     }
 }

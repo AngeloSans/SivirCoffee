@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t7ctFvqSlpvOMGyZgEITrosj0ZoeFk0lWWSZMbxe78CW0tNPhX9NF8BTTyQfybsY6okGPywWRrjzJBNcfDqgVw==",
+  "dgSpecHash": "ZwggcqDbcqR5BqpeTNCOwrKTd+czaY0srQ6gHN6ZejzgI9/4zL4fpgh0AfkzG73jLESTqDiXj6ul4yNOigJVDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

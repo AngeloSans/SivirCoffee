@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\SivirCoffee",
-    "\\SivirCoffee\\SivirCoffee",
-    "\\SivirCoffee\\SivirCoffee.AuthenticationService",
-    "\\SivirCoffee\\SivirCoffee.AuthenticationService\\Infrastructure",
-    "\\SivirCoffee\\SivirCoffee\\Controllers"
+    ""
   ],
-  "SelectedNode": "\\SivirCoffee\\SivirCoffee.sln",
+  "SelectedNode": "\\SivirCoffee.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -7372,11 +7372,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
       "projectName": "SivirCoffee.MenuService",
-      "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

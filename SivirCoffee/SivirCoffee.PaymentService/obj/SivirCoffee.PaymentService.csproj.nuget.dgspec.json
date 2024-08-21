@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {}
+    "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
         "projectName": "SivirCoffee.PaymentService",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

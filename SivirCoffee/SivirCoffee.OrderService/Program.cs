@@ -1,11 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using SivirCoffee.OrderService.Infraestructure;
 using SivirCoffee.OrderService.Service;
 using SivirCoffee.OrderService.Infrastructure.Repository;
 using SivirCoffee.OrderService.Infrastructure;
-using SivirCoffee.OrderService.Application.Service.RabbitMQService;
 using SivirCoffee.OrderService.Application.Service;
+using SivirCoffee.OrderService.Infrastructure.RabbitMQService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +15,7 @@ builder.Services.AddDbContext<OrderDBContext>(options =>
 //rabbitmqCOnfigurations
 
 builder.Services.Configure<RabbitMQConfig>(builder.Configuration.GetSection("RabbitMQConfig"));
-builder.Services.AddSingleton<IRabbitMqPublisher, RabbitMQPublisher>();
+//builder.Services.AddSingleton<IRabbitMqPublisher, RabbitMQPublisher>();
 //services.AddSingleton<IHostedService, RabbitMQConsumer>();
 
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();

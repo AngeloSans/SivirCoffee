@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj": {}
+    "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj",
         "projectName": "SivirCoffee.AuthenticationService",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj"
+              "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj"
               },
-              "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj"
+              "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj"
               }
             }
           }
@@ -127,14 +127,14 @@
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
         "projectName": "SivirCoffee.MenuService",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,14 +223,14 @@
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj",
         "projectName": "SivirCoffee.OrderService",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -247,14 +247,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj"
+              "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.AuthenticationService\\SivirCoffee.AuthenticationService.csproj"
               },
-              "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj"
+              "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj"
               },
-              "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj"
+              "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj"
               }
             }
           }
@@ -337,14 +337,14 @@
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
         "projectName": "SivirCoffee.PaymentService",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

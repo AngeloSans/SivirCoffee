@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AFJwgDRDcKj1vDCUldI523e0pTThi+KRb6tX6R/1IuJG1s5mzrl/gnw8DJ2A/Ko/DrvSGhJfSXBDJmbAFaKj+g==",
+  "dgSpecHash": "eI5s7nrABpZolbEbx+fjt5QJps9LsP4Z6XKgcY97bPCQbfoFmQFhcElHDKJriQRFTlzpeMdngfFQem3fcAlSyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.MenuService\\SivirCoffee.MenuService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

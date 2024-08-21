@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8w8+8jJrOVQ6jhJjCqrbYFDwCd8/HqH+ZNcJ83SGkx7U5pHbumyGg/fLvI7I0ewRkKv//y7EUq7aK7ZqjZxvJA==",
+  "dgSpecHash": "3jYiuSkALrfPSk6xPzGTBBlqyCZOWQBgI3GX+NCjN+giWAVa2noiB4xddY1ud5O4IlpbNr1U9j0Uds01ko3t6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.PaymentService\\SivirCoffee.PaymentService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

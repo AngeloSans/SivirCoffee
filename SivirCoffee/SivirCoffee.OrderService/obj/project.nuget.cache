@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jN/gngaNO8jqNCdUgNVKRgM3tJytHl85Z7YdhstH2FP29mgH7kK6MVWI5BoV/+O8xqPYnm+mf6IjSj98of9QeQ==",
+  "dgSpecHash": "kzifgPDT/zhW067Z+OtJjpzkyiFpESSXHPz+D4dcB4euGWhyT7powbavSw4PIKbd4VcBxFTm1hcJBONDbZXvpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\Projects\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\SivirCoffee\\SivirCoffee\\SivirCoffee.OrderService\\SivirCoffee.OrderService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
